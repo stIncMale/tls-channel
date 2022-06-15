@@ -25,11 +25,11 @@ dependencies {
     testImplementation 'org.scalatest:scalatest_3:3.2.12'
     testImplementation 'com.typesafe.scala-logging:scala-logging_3:3.9.5'
     // pinned due to netty-tcnative-boringssl-static being pinned
-    testImplementation 'io.netty:netty-buffer:4.1.73.Final'
-    testImplementation 'io.netty:netty-handler:4.1.73.Final'
+    testImplementation 'io.netty:netty-buffer:4.1.78.Final'
+    testImplementation 'io.netty:netty-handler:4.1.78.Final'
     testRuntimeOnly 'ch.qos.logback:logback-classic:1.2.11'
     // pinned: https://github.com/netty/netty-tcnative/issues/716
-    testRuntimeOnly 'io.netty:netty-tcnative-boringssl-static:2.0.47.Final'
+    testRuntimeOnly 'io.netty:netty-tcnative-boringssl-static:2.0.53.Final'
     // required by ScalaTest
     testRuntimeOnly 'com.vladsch.flexmark:flexmark-all:0.64.0'
 }
